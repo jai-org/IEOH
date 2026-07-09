@@ -1,0 +1,16 @@
+.git
+.gitignore
+.agents
+.codex
+venv
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.log
+.pytest_cache
+.ruff_cache
+deliverables
+*.db-shm
+*.db-wal
