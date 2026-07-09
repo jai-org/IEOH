@@ -1,0 +1,22 @@
+[
+  {
+    "contract_id": "CTR001",
+    "contract_name": "Master Services Agreement",
+    "counterparty": "TechSupply Inc",
+    "contract_type": "MSA",
+    "owner_id": "EMP004",
+    "status": "review",
+    "risk_level": "medium",
+    "created_at": "2026-06-20T11:00:00Z"
+  },
+  {
+    "contract_id": "CTR002",
+    "contract_name": "Vendor NDA",
+    "counterparty": "Northwind",
+    "contract_type": "NDA",
+    "owner_id": "EMP004",
+    "status": "draft",
+    "risk_level": "pending_review",
+    "created_at": "2026-07-08T16:12:57.269155"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "vendor_id": "VND001",
+    "name": "TechSupply Inc",
+    "category": "IT Equipment",
+    "rating": 4.5,
+    "contract_status": "active",
+    "payment_terms": "Net 30",
+    "contact": "vendor@techsupply.com",
+    "products": ["Laptops", "Monitors", "Accessories"]
+  },
+  {
+    "vendor_id": "VND002",
+    "name": "Office Essentials Co",
+    "category": "Office Supplies",
+    "rating": 4.2,
+    "contract_status": "active",
+    "payment_terms": "Net 15",
+    "contact": "sales@officeessentials.com",
+    "products": ["Furniture", "Stationery", "Supplies"]
+  },
+  {
+    "vendor_id": "VND003",
+    "name": "CloudServices Pro",
+    "category": "Software & Services",
+    "rating": 4.8,
+    "contract_status": "active",
+    "payment_terms": "Monthly",
+    "contact": "support@cloudservices.com",
+    "products": ["Cloud Storage", "SaaS Solutions", "Support"]
+  },
+  {
+    "vendor_id": "VND004",
+    "name": "Dell Technologies",
+    "category": "IT Equipment",
+    "rating": 4.6,
+    "contract_status": "active",
+    "payment_terms": "Net 30",
+    "contact": "enterprise@dell.com",
+    "products": ["Laptops", "Servers", "Workstations"]
+  }
+]

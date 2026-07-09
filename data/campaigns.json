@@ -1,0 +1,29 @@
+[
+  {
+    "campaign_id": "CMP001",
+    "name": "Spring Product Awareness",
+    "channel": "LinkedIn",
+    "budget": 8000,
+    "objective": "Brand awareness",
+    "status": "active",
+    "created_at": "2026-06-15T09:00:00Z"
+  },
+  {
+    "campaign_id": "CMP002",
+    "name": "Q4 Demand Gen",
+    "channel": "LinkedIn",
+    "budget": 12000.0,
+    "objective": "Lead generation",
+    "status": "planned",
+    "created_at": "2026-07-08T16:12:57.261825"
+  },
+  {
+    "campaign_id": "CMP003",
+    "name": "Q3 Product Push",
+    "channel": "LinkedIn",
+    "budget": 10000.0,
+    "objective": "lead generation",
+    "status": "planned",
+    "created_at": "2026-07-08T23:24:56.218336"
+  }
+]

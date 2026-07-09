@@ -1,0 +1,45 @@
+[
+  {
+    "expense_id": "EXP001",
+    "employee_id": "EMP001",
+    "amount": 1250.0,
+    "category": "travel",
+    "description": "Client meeting in NYC",
+    "date": "2024-06-20",
+    "status": "approved",
+    "receipts": [
+      "receipt_001.pdf"
+    ],
+    "submitted_at": "2024-06-21T10:00:00Z",
+    "approved_by": "FinanceAgent",
+    "approved_at": "2026-07-08T13:33:44.843802",
+    "approval_comments": "Expense approved for client meeting in NYC."
+  },
+  {
+    "expense_id": "EXP002",
+    "employee_id": "EMP002",
+    "amount": 450.0,
+    "category": "marketing",
+    "description": "Social media advertising",
+    "date": "2024-06-22",
+    "status": "approved",
+    "receipts": [
+      "receipt_002.pdf"
+    ],
+    "submitted_at": "2024-06-23T09:30:00Z",
+    "approved_at": "2024-06-24T14:00:00Z"
+  },
+  {
+    "expense_id": "EXP003",
+    "employee_id": "EMP005",
+    "amount": 85.5,
+    "category": "meals",
+    "description": "Client lunch meeting",
+    "date": "2024-06-25",
+    "status": "pending_approval",
+    "receipts": [
+      "receipt_003.pdf"
+    ],
+    "submitted_at": "2024-06-26T16:00:00Z"
+  }
+]

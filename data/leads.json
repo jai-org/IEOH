@@ -1,0 +1,29 @@
+[
+  {
+    "lead_id": "LEAD001",
+    "customer_name": "Alex Carter",
+    "company": "Acme Corp",
+    "email": "alex@acme.com",
+    "source": "LinkedIn",
+    "status": "qualified",
+    "created_at": "2026-07-01T10:00:00Z"
+  },
+  {
+    "lead_id": "LEAD002",
+    "customer_name": "Priya Nair",
+    "company": "Northwind",
+    "email": "priya@northwind.com",
+    "source": "Web",
+    "status": "new",
+    "created_at": "2026-07-08T16:12:57.255977"
+  },
+  {
+    "lead_id": "LEAD003",
+    "customer_name": "Alex Carter",
+    "company": "Acme Corp",
+    "email": "alex@acme.com",
+    "source": "LinkedIn",
+    "status": "new",
+    "created_at": "2026-07-08T23:36:47.371943"
+  }
+]

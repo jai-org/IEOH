@@ -1,0 +1,222 @@
+[
+  {
+    "employee_id": "EMP001",
+    "name": "John Doe",
+    "email": "john.doe@company.com",
+    "department": "Engineering",
+    "role": "Senior Developer",
+    "manager_id": "EMP050",
+    "start_date": "2020-01-15",
+    "status": "active",
+    "leave_balance": 15
+  },
+  {
+    "employee_id": "EMP002",
+    "name": "Jane Smith",
+    "email": "jane.smith@company.com",
+    "department": "Marketing",
+    "role": "Marketing Manager",
+    "manager_id": "EMP051",
+    "start_date": "2019-03-20",
+    "status": "active",
+    "leave_balance": 12
+  },
+  {
+    "employee_id": "EMP003",
+    "name": "Mike Johnson",
+    "email": "mike.johnson@company.com",
+    "department": "Finance",
+    "role": "Financial Analyst",
+    "manager_id": "EMP052",
+    "start_date": "2021-06-10",
+    "status": "active",
+    "leave_balance": 18
+  },
+  {
+    "employee_id": "EMP004",
+    "name": "Sarah Williams",
+    "email": "sarah.williams@company.com",
+    "department": "HR",
+    "role": "HR Specialist",
+    "manager_id": "EMP053",
+    "start_date": "2018-09-05",
+    "status": "active",
+    "leave_balance": 10
+  },
+  {
+    "employee_id": "EMP005",
+    "name": "David Brown",
+    "email": "david.brown@company.com",
+    "department": "Sales",
+    "role": "Sales Executive",
+    "manager_id": "EMP054",
+    "start_date": "2022-01-12",
+    "status": "active",
+    "leave_balance": 20
+  },
+  {
+    "employee_id": "EMP006",
+    "name": "Sachin Sharma",
+    "email": "sachin.sharma@company.com",
+    "department": "Engineering",
+    "role": "Data Analyst",
+    "manager_id": "MGR_RAHUL_MEHTA",
+    "start_date": "2026-07-15",
+    "status": "onboarding",
+    "leave_balance": 20
+  },
+  {
+    "employee_id": "EMP007",
+    "name": "Sachin Sharma",
+    "email": "sachin.sharma@company.com",
+    "department": "Engineering",
+    "role": "Data Analyst",
+    "manager_id": "MGR_RAHUL_MEHTA",
+    "start_date": "2026-07-15",
+    "status": "onboarding",
+    "leave_balance": 20
+  },
+  {
+    "employee_id": "EMP008",
+    "name": "Sachin Sharma",
+    "email": "sachin.sharma@company.com",
+    "department": "Engineering",
+    "role": "Data Analyst",
+    "manager_id": "MGR_RAHUL_MEHTA",
+    "start_date": "2026-07-15",
+    "status": "onboarding",
+    "leave_balance": 20
+  },
+  {
+    "employee_id": "EMP009",
+    "name": "Sachin Sharma",
+    "email": "sachin.sharma@company.com",
+    "department": "Engineering",
+    "role": "Data Analyst",
+    "manager_id": "MGR_RAHUL_MEHTA",
+    "start_date": "2026-07-15",
+    "status": "onboarding",
+    "leave_balance": 20
+  },
+  {
+    "employee_id": "EMP010",
+    "name": "Sachin Sharma",
+    "email": "sachin.sharma@company.com",
+    "department": "Engineering",
+    "role": "Data Analyst",
+    "manager_id": "MGR_RAHUL_MEHTA",
+    "start_date": "2026-07-15",
+    "status": "onboarding",
+    "leave_balance": 20
+  },
+  {
+    "employee_id": "EMP011",
+    "name": "Sachin Sharma",
+    "email": "sachin.sharma@company.com",
+    "department": "Engineering",
+    "role": "Data Analyst",
+    "manager_id": "MGR_RAHUL_MEHTA",
+    "start_date": "2026-07-15",
+    "status": "onboarding",
+    "leave_balance": 20
+  },
+  {
+    "employee_id": "EMP012",
+    "name": "Sachin Sharma",
+    "email": "sachin.sharma@company.com",
+    "department": "Engineering",
+    "role": "Data Analyst",
+    "manager_id": "MGR_RAHUL_MEHTA",
+    "start_date": "2026-07-15",
+    "status": "onboarding",
+    "leave_balance": 20
+  },
+  {
+    "employee_id": "EMP013",
+    "name": "Sachin Sharma",
+    "email": "sachin.sharma@company.com",
+    "department": "Engineering",
+    "role": "Data Analyst",
+    "manager_id": "MGR_RAHUL_MEHTA",
+    "start_date": "2026-07-15",
+    "status": "onboarding",
+    "leave_balance": 20
+  },
+  {
+    "employee_id": "EMP014",
+    "name": "Sachin Sharma",
+    "email": "sachin.sharma@company.com",
+    "department": "Engineering",
+    "role": "Data Analyst",
+    "manager_id": "MGR_RAHUL_MEHTA",
+    "start_date": "2026-07-15",
+    "status": "onboarding",
+    "leave_balance": 20
+  },
+  {
+    "employee_id": "EMP015",
+    "name": "Sachin Sharma",
+    "email": "sachin.sharma@company.com",
+    "department": "Engineering",
+    "role": "Data Analyst",
+    "manager_id": "MGR_RAHUL_MEHTA",
+    "start_date": "2026-07-15",
+    "status": "onboarding",
+    "leave_balance": 20
+  },
+  {
+    "employee_id": "EMP016",
+    "name": "Sachin Sharma",
+    "email": "sachin.sharma@company.com",
+    "department": "Engineering",
+    "role": "Data Analyst",
+    "manager_id": "MGR_RAHUL_MEHTA",
+    "start_date": "2026-07-15",
+    "status": "onboarding",
+    "leave_balance": 20
+  },
+  {
+    "employee_id": "EMP017",
+    "name": "Sachin Sharma",
+    "email": "sachin.sharma@company.com",
+    "department": "Engineering",
+    "role": "Data Analyst",
+    "manager_id": "MGR_RAHUL_MEHTA",
+    "start_date": "2026-07-15",
+    "status": "onboarding",
+    "leave_balance": 20
+  },
+  {
+    "employee_id": "EMP018",
+    "name": "Sachin Sharma",
+    "email": "sachin.sharma@company.com",
+    "department": "Engineering",
+    "role": "Data Analyst",
+    "manager_id": "MGR_RAHUL_MEHTA",
+    "start_date": "2026-07-15",
+    "status": "onboarding",
+    "leave_balance": 20
+  },
+  {
+    "employee_id": "EMP019",
+    "name": "Test User",
+    "email": "test.user@company.com",
+    "department": "Engineering",
+    "role": "Data Analyst",
+    "manager_id": "MGR_RAHUL_MEHTA",
+    "start_date": "2026-07-15",
+    "status": "onboarding",
+    "leave_balance": 20
+  },
+  {
+    "employee_id": "EMP020",
+    "name": "Sachin Sharma",
+    "email": "sachin.sharma@company.com",
+    "department": "Engineering",
+    "role": "Data Analyst",
+    "manager_id": "MGR_RAHUL_MEHTA",
+    "start_date": "2026-07-15",
+    "status": "onboarding",
+    "leave_balance": 20
+  }
+]
