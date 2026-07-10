@@ -167,15 +167,16 @@ with st.sidebar:
 
 for message in st.session_state.messages:
     role = message["role"]
-    content = message["content"]
-    safe_content = html.escape(str(content)).replace("\n", "<br>")
-    
+    content = str(message["content"])
+
     if role == "user":
-        st.markdown(f'<div class="chat-message user-message"><strong>👤 You:</strong><br>{safe_content}</div>', unsafe_allow_html=True)
+        with st.chat_message("user", avatar="👤"):
+            st.markdown(content)
     else:
-        agent_name = message.get("agent", "Assistant")
-        safe_agent_name = html.escape(str(agent_name))
-        st.markdown(f'<div class="chat-message agent-message"><strong>🤖 {safe_agent_name}:</strong><br>{safe_content}</div>', unsafe_allow_html=True)
+        agent_name = str(message.get("agent", "Assistant"))
+        with st.chat_message("assistant", avatar="🤖"):
+            st.markdown(f"**{html.escape(agent_name)}**")
+            st.markdown(content)
 
 typed_input = st.chat_input("Type your request here... (e.g., 'Reset my password', 'Apply for leave', 'Approve expense EXP001')")
 quick_action_input = st.session_state.pop("quick_action", None) if "quick_action" in st.session_state else None
@@ -188,8 +189,8 @@ if user_input:
     
     st.session_state.messages.append({"role": "user", "content": user_input})
     
-    safe_user_input = html.escape(str(user_input)).replace("\n", "<br>")
-    st.markdown(f'<div class="chat-message user-message"><strong>👤 You:</strong><br>{safe_user_input}</div>', unsafe_allow_html=True)
+    with st.chat_message("user", avatar="👤"):
+        st.markdown(str(user_input))
     
     with st.spinner("🤖 Agents are processing your request..."):
         try:
@@ -290,8 +291,9 @@ if user_input:
             })
             
             safe_agent = html.escape(str(result.get("current_agent", "System").title()))
-            safe_response = html.escape(str(response_text)).replace("\n", "<br>")
-            st.markdown(f'<div class="chat-message agent-message"><strong>🤖 {safe_agent}:</strong><br>{safe_response}</div>', unsafe_allow_html=True)
+            with st.chat_message("assistant", avatar="🤖"):
+                st.markdown(f"**{safe_agent}**")
+                st.markdown(str(response_text))
             
             if result.get("status") == "completed":
                 st.success("✅ Request completed successfully!")
