@@ -16,6 +16,10 @@ This project is ready to run as a live Streamlit app with a public URL.
 5. Deploy. You will get a shareable URL like:
    - `https://your-app-name.streamlit.app`
 
+Notes:
+- Python runtime is pinned in `runtime.txt` to improve dependency stability on Streamlit Cloud.
+- Production deps are in `requirements.txt`; dev-only tools are in `requirements-dev.txt`.
+
 ## Option 2: Render (Docker Deploy)
 
 1. Push this repo to GitHub (includes `Dockerfile` and `render.yaml`).
